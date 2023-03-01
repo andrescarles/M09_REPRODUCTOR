@@ -73,3 +73,9 @@ function cargaInformacion(numero) {
     audio.src = musica[numero].url
 
 }
+//FUNCION PARA CAMBIAR VOLUMEN
+function volumen() {
+    var vol = document.getElementById("vol").value;
+    console.log(vol)
+    audio.volume = vol;
+}

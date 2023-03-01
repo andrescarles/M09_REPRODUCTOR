@@ -22,13 +22,23 @@
             <h1 id="duracion"></h1>
         </div>
         <div class="subcaja3">
-            <div class="material-symbols-outlined" onclick="next()">skip_next</div>
-            <div id="inicio" class="material-symbols-outlined" onclick="playPause()">play_circle</div>
-            <div class="material-symbols-outlined" onclick="previous()">skip_previous</div>
+            <div>
+                <div class="material-symbols-outlined" onclick="previous()">skip_previous</div>
+                <div id="inicio" class="material-symbols-outlined" onclick="playPause()">play_circle</div>
+                <div class="material-symbols-outlined" onclick="next()">skip_next</div>
+            </div>
+            <input type="range" id="vol" name="vol" min="0" max="1" step="0.01" value="0.5" onchange="volumen()">
         </div>
     </div>
 
-    <audio id="reproductor" controls></audio>
+
+
+
+
+
+
+
+    <audio id="reproductor"></audio>
     <script src="script.js"></script>
 </body>
 
