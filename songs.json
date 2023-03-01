@@ -1,0 +1,29 @@
+[{
+        "nombre": "Cancion 1",
+        "url": "audio/song1.mp3",
+        "duracion": 6.57,
+        "artista": "Artista 1",
+        "image": "img/musica1.jpg"
+    },
+    {
+        "nombre": "Cancion 2",
+        "url": "audio/song2.mp3",
+        "duracion": 13.08,
+        "artista": "Artista 2",
+        "image": "img/musica2.jpg"
+    },
+    {
+        "nombre": "Cancion 3",
+        "url": "audio/song3.mp3",
+        "duracion": 8.01,
+        "artista": "Artista 3",
+        "image": "img/musica3.jpg"
+    },
+    {
+        "nombre": "Cancion 4",
+        "url": "audio/song4.mp3",
+        "duracion": 0.4,
+        "artista": "Artista 4",
+        "image": "img/musica4.png"
+    }
+]
