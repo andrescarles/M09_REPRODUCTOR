@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+
+/*CAJA PRINCIPAL ( SE DIVIDE EN 3 ) AQUI VA EL CSS BASICO PARA EL ESPACIO LOS DETALLES VAN DESPUES*/
+
 .caja {
     border-radius: 5px;
     background-color: #4CAD51;
@@ -40,6 +43,9 @@
     align-items: center;
 }
 
+
+/*ICONOS Y HOVER ICONOS*/
+
 .material-symbols-outlined {
     font-size: 70px;
     color: white;
@@ -49,6 +55,9 @@
     cursor: pointer;
     text-shadow: 2px 2px black;
 }
+
+
+/*LETRA DE LA INFORMACION ACERCA DE LA CANCION ARTISA...*/
 
 #cancion,
 #duracion,
@@ -62,6 +71,9 @@
     font-size: 24px;
 }
 
+
+/*IMAGEN GIRATORIA*/
+
 .contenedor_foto {
     border-radius: 50%;
     height: 100%;
@@ -73,6 +85,9 @@
     height: 100%;
     object-fit: fill;
 }
+
+
+/*ANIMACION GIRATORIA*/
 
 .inyeccion {
     animation: rotation 8s infinite linear;
@@ -90,6 +105,9 @@
         transform: rotate(359deg);
     }
 }
+
+
+/*INPUT DE VOLUMEN*/
 
 input[type='range'] {
     accent-color: red;
